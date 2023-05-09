@@ -1,2 +1,2 @@
-# AzureVM
-AzureVMProvisioning
+# AzureWindowsVM
+AzureWindowsVMProvisioning
