@@ -38,13 +38,7 @@ variable "network_interface_name" {
   description = "NIC name in Azure"
 }
 
-variable "linux_virtual_machine_name" {
+variable "windows_virtual_machine_name" {
   type        = string
-  description = "Linux VM name in Azure"
-}
-
-variable "cosmosdb_failover_location" {
-  type        = string
-  default     = "North Europe"
-  description = "Failover location for CosmosDB"
+  description = "windows VM name in Azure"
 }
